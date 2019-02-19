@@ -1,0 +1,518 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Yan Shuang, BIT, LIC=Y2BRA-1B7A7-15JTV-P84N3-6YJSS-SGVY9
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain Path:  E:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.7
+Assembler:       Armasm.exe V6.7
+Linker/Locator:  ArmLink.exe V6.7
+Library Manager: ArmAr.exe V6.7
+Hex Converter:   FromElf.exe V6.7
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+F:\In2Bots!!!!\≤‚ ‘¥˙¬Î\RM_Infantry_TBoard\MDK-ARM\RM_Infantry_TBoard.uvprojx
+Project File Date:  01/20/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.7', folder: 'E:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'RM_Infantry_TBoard'
+assembling startup_stm32f405xx.s...
+compiling PID.c...
+../Src/ChassisTest.c(5): warning: In file included from...
+../Inc\RemoteTask.h(17): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(17): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(25): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Remote;
+ ^
+../Inc\RemoteTask.h(26): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(26): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(35): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Mouse; 
+ ^
+../Inc\RemoteTask.h(36): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(36): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(39): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Key;
+ ^
+../Inc\RemoteTask.h(41): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(41): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(46): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}RC_Ctl_t;
+ ^
+../Inc\RemoteTask.h(48): error: unknown type name 'RC_Ctl_t'
+extern RC_Ctl_t RC_CtrlData;
+       ^
+4 warnings and 9 errors generated.
+compiling ChassisTest.c...
+../Src/main.c(49): warning: In file included from...
+../Inc\RemoteTask.h(17): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(17): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(25): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Remote;
+ ^
+../Inc\RemoteTask.h(26): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(26): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(35): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Mouse; 
+ ^
+../Inc\RemoteTask.h(36): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(36): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(39): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Key;
+ ^
+../Inc\RemoteTask.h(41): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(41): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(46): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}RC_Ctl_t;
+ ^
+../Inc\RemoteTask.h:48:8:extern RC_Ctl_t RC_CtrlData;
+       ^
+4 warnings and 9 errors generated.
+compiling main.c...
+compiling gpio.c...
+compiling tim.c...
+../Src/usart.c(47): warning: In file included from...
+../Inc\RemoteTask.h(17): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(17): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(25): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Remote;
+ ^
+../Inc\RemoteTask.h(26): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(26): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(35): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Mouse; 
+ ^
+../Inc\RemoteTask.h(36): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(36): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(39): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Key;
+ ^
+../Inc\RemoteTask.h(41): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(41): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(46): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}RC_Ctl_t;
+ ^
+../Inc\RemoteTask.h(48): error: unknown type name 'RC_Ctl_t'
+extern RC_Ctl_t RC_CtrlData;
+       ^
+4 warnings and 9 errors generated.
+compiling usart.c...
+compiling stm32f4xx_it.c...
+compiling stm32f4xx_hal_msp.c...
+../Src/RemoteTask.c(2): warning: In file included from...
+../Inc\RemoteTask.h(17): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(17): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(25): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Remote;
+ ^
+../Inc\RemoteTask.h(26): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(26): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(35): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Mouse; 
+ ^
+../Inc\RemoteTask.h(36): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(36): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(39): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}Key;
+ ^
+../Inc\RemoteTask.h(41): error: unknown type name '__packed'
+typedef __packed struct
+        ^
+../Inc\RemoteTask.h(41): error: expected identifier or '('
+typedef __packed struct
+                 ^
+../Inc\RemoteTask.h(46): warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+}RC_Ctl_t;
+ ^
+../Inc\RemoteTask.h(48): error: unknown type name 'RC_Ctl_t'
+extern RC_Ctl_t RC_CtrlData;
+       ^
+../Src/RemoteTask.c(11): error: unknown type name 'RC_Ctl_t'
+RC_Ctl_t RC_CtrlData;   //remote control data
+^
+../Src/RemoteTask.c(16): warning: implicitly declaring library function 'abs' with type 'int (int)' [-Wimplicit-function-declaration]
+        if(abs((int32_t)time_tick_1ms - (int32_t)timercnt) > 1) 
+           ^
+../Src/RemoteTask.c(16): note: include the header <stdlib.h> or explicitly provide a declaration for 'abs'
+5 warnings and 10 errors generated.
+compiling RemoteTask.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(414): error: unknown type name '__weak'
+__weak void HAL_CAN_MspInit(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(414): error: expected identifier or '('
+__weak void HAL_CAN_MspInit(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(430): error: unknown type name '__weak'
+__weak void HAL_CAN_MspDeInit(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(430): error: expected identifier or '('
+__weak void HAL_CAN_MspDeInit(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1668): error: unknown type name '__weak'
+__weak void HAL_CAN_TxMailbox0CompleteCallback(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1668): error: expected identifier or '('
+__weak void HAL_CAN_TxMailbox0CompleteCallback(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1685): error: unknown type name '__weak'
+__weak void HAL_CAN_TxMailbox1CompleteCallback(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1685): error: expected identifier or '('
+__weak void HAL_CAN_TxMailbox1CompleteCallback(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1702): error: unknown type name '__weak'
+__weak void HAL_CAN_TxMailbox2CompleteCallback(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1702): error: expected identifier or '('
+__weak void HAL_CAN_TxMailbox2CompleteCallback(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1719): error: unknown type name '__weak'
+__weak void HAL_CAN_TxMailbox0AbortCallback(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1719): error: expected identifier or '('
+__weak void HAL_CAN_TxMailbox0AbortCallback(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1736): error: unknown type name '__weak'
+__weak void HAL_CAN_TxMailbox1AbortCallback(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1736): error: expected identifier or '('
+__weak void HAL_CAN_TxMailbox1AbortCallback(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1753): error: unknown type name '__weak'
+__weak void HAL_CAN_TxMailbox2AbortCallback(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1753): error: expected identifier or '('
+__weak void HAL_CAN_TxMailbox2AbortCallback(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1770): error: unknown type name '__weak'
+__weak void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1770): error: expected identifier or '('
+__weak void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c(1787): error: unknown type name '__weak'
+__weak void HAL_CAN_RxFifo0FullCallback(CAN_HandleTypeDef *hcan)
+^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling stm32f4xx_hal_can.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(273): error: unknown type name '__weak'
+__weak void HAL_TIM_Base_MspInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(273): error: expected identifier or '('
+__weak void HAL_TIM_Base_MspInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(288): error: unknown type name '__weak'
+__weak void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(288): error: expected identifier or '('
+__weak void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(555): error: unknown type name '__weak'
+__weak void HAL_TIM_OC_MspInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(555): error: expected identifier or '('
+__weak void HAL_TIM_OC_MspInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(570): error: unknown type name '__weak'
+__weak void HAL_TIM_OC_MspDeInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(570): error: expected identifier or '('
+__weak void HAL_TIM_OC_MspDeInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1067): error: unknown type name '__weak'
+__weak void HAL_TIM_PWM_MspInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1067): error: expected identifier or '('
+__weak void HAL_TIM_PWM_MspInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1082): error: unknown type name '__weak'
+__weak void HAL_TIM_PWM_MspDeInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1082): error: expected identifier or '('
+__weak void HAL_TIM_PWM_MspDeInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1582): error: unknown type name '__weak'
+__weak void HAL_TIM_IC_MspInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1582): error: expected identifier or '('
+__weak void HAL_TIM_IC_MspInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1597): error: unknown type name '__weak'
+__weak void HAL_TIM_IC_MspDeInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(1597): error: expected identifier or '('
+__weak void HAL_TIM_IC_MspDeInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(2071): error: unknown type name '__weak'
+__weak void HAL_TIM_OnePulse_MspInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(2071): error: expected identifier or '('
+__weak void HAL_TIM_OnePulse_MspInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c(2086): error: unknown type name '__weak'
+__weak void HAL_TIM_OnePulse_MspDeInit(TIM_HandleTypeDef *htim)
+^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling stm32f4xx_hal_tim.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(258): error: unknown type name '__weak'
+__weak void HAL_TIMEx_HallSensor_MspInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(258): error: expected identifier or '('
+__weak void HAL_TIMEx_HallSensor_MspInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(273): error: unknown type name '__weak'
+__weak void HAL_TIMEx_HallSensor_MspDeInit(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(273): error: expected identifier or '('
+__weak void HAL_TIMEx_HallSensor_MspDeInit(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(1766): error: unknown type name '__weak'
+__weak void HAL_TIMEx_CommutationCallback(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(1766): error: expected identifier or '('
+__weak void HAL_TIMEx_CommutationCallback(TIM_HandleTypeDef *htim)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(1781): error: unknown type name '__weak'
+__weak void HAL_TIMEx_BreakCallback(TIM_HandleTypeDef *htim)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c(1781): error: expected identifier or '('
+__weak void HAL_TIMEx_BreakCallback(TIM_HandleTypeDef *htim)
+       ^
+8 errors generated.
+compiling stm32f4xx_hal_tim_ex.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(527): error: unknown type name '__weak'
+ __weak void HAL_UART_MspInit(UART_HandleTypeDef *huart)
+ ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(527): error: expected identifier or '('
+ __weak void HAL_UART_MspInit(UART_HandleTypeDef *huart)
+        ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(542): error: unknown type name '__weak'
+ __weak void HAL_UART_MspDeInit(UART_HandleTypeDef *huart)
+ ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(542): error: expected identifier or '('
+ __weak void HAL_UART_MspDeInit(UART_HandleTypeDef *huart)
+        ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1650): error: unknown type name '__weak'
+ __weak void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+ ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1650): error: expected identifier or '('
+ __weak void HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)
+        ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1665): error: unknown type name '__weak'
+ __weak void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart)
+ ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1665): error: expected identifier or '('
+ __weak void HAL_UART_TxHalfCpltCallback(UART_HandleTypeDef *huart)
+        ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1680): error: unknown type name '__weak'
+__weak void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1680): error: expected identifier or '('
+__weak void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1695): error: unknown type name '__weak'
+__weak void HAL_UART_RxHalfCpltCallback(UART_HandleTypeDef *huart)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1695): error: expected identifier or '('
+__weak void HAL_UART_RxHalfCpltCallback(UART_HandleTypeDef *huart)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1710): error: unknown type name '__weak'
+ __weak void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
+ ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1710): error: expected identifier or '('
+ __weak void HAL_UART_ErrorCallback(UART_HandleTypeDef *huart)
+        ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1724): error: unknown type name '__weak'
+__weak void HAL_UART_AbortCpltCallback (UART_HandleTypeDef *huart)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1724): error: expected identifier or '('
+__weak void HAL_UART_AbortCpltCallback (UART_HandleTypeDef *huart)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1738): error: unknown type name '__weak'
+__weak void HAL_UART_AbortTransmitCpltCallback (UART_HandleTypeDef *huart)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1738): error: expected identifier or '('
+__weak void HAL_UART_AbortTransmitCpltCallback (UART_HandleTypeDef *huart)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c(1753): error: unknown type name '__weak'
+__weak void HAL_UART_AbortReceiveCpltCallback (UART_HandleTypeDef *huart)
+^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling stm32f4xx_hal_uart.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c(218): error: unknown type name '__weak'
+__weak HAL_StatusTypeDef HAL_RCC_DeInit(void)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c(218): error: expected ';' after top level declarator
+__weak HAL_StatusTypeDef HAL_RCC_DeInit(void)
+                        ^
+                        ;
+2 errors generated.
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(400): error: unknown type name '__weak'
+__weak void HAL_FLASH_EndOfOperationCallback(uint32_t ReturnValue)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(400): error: expected identifier or '('
+__weak void HAL_FLASH_EndOfOperationCallback(uint32_t ReturnValue)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(417): error: unknown type name '__weak'
+__weak void HAL_FLASH_OperationErrorCallback(uint32_t ReturnValue)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c(417): error: expected identifier or '('
+__weak void HAL_FLASH_OperationErrorCallback(uint32_t ReturnValue)
+       ^
+4 errors generated.
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c(518): error: unknown type name '__weak'
+__weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c(518): error: expected identifier or '('
+__weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+       ^
+2 errors generated.
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma_ex.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c(501): error: unknown type name '__weak'
+__weak void HAL_PWR_PVDCallback(void)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c(501): error: expected identifier or '('
+__weak void HAL_PWR_PVDCallback(void)
+       ^
+2 errors generated.
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c(497): error: unknown type name '__weak'
+__weak void HAL_SYSTICK_Callback(void)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c(497): error: expected identifier or '('
+__weak void HAL_SYSTICK_Callback(void)
+       ^
+2 errors generated.
+compiling stm32f4xx_hal_cortex.c...
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(235): error: unknown type name '__weak'
+__weak void HAL_MspInit(void)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(235): error: expected identifier or '('
+__weak void HAL_MspInit(void)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(246): error: unknown type name '__weak'
+__weak void HAL_MspDeInit(void)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(246): error: expected identifier or '('
+__weak void HAL_MspDeInit(void)
+       ^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(269): error: unknown type name '__weak'
+__weak HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
+^
+../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c(269): error: expected ';' after top level declarator
+__weak HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
+                        ^
+                        ;
+6 errors generated.
+compiling stm32f4xx_hal.c...
+compiling system_stm32f4xx.c...
+".\RM_Infantry_TBoard\RM_Infantry_TBoard.axf" - 119 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.0.1.pack
+                ARM.CMSIS.5.0.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.0.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_RM_Infantry_TBoard
+  E:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+  E:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.0.1
+Target not created.
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
